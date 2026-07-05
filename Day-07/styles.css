@@ -1,0 +1,55 @@
+/* css syntax  */
+/* selector{
+    property:value;
+} */
+
+/* element,class and id selector  */
+
+
+/* universal selector  */
+/* *{
+
+} */
+
+/* element selector 
+ */
+
+/* css colors  */
+/* h1 {
+    color: red;
+    background-color: aqua;
+    padding: 5px;
+} */
+
+/* values range fro 0-255  */
+/* a value range from 0-1  */
+p {
+    /* color: rgb(190, 255, 100); */
+    /* color: rgba(255,150,50,0.5); */
+
+    /* hex values range from 0-9,A-F */
+    /* color: #abc; */
+}
+
+#profile{
+    border: 2px solid green;
+    text-align: center;
+}
+h1{
+    color: aqua;
+}
+h2{
+    color: #cf9;
+
+}
+h3{
+    color: rgb(250,20,200);
+
+}
+img{
+    height: 150px;
+    width: 100px;
+}
+p{
+    color: rgba(100,200,100,1);
+}

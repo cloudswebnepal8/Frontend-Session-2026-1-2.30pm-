@@ -1,0 +1,15 @@
+body{
+    /* backgrounds properties */
+    /* background-image: url("bpic.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed; */
+    /* background-color: red; */
+    /* background-size: cover; */
+    /* background-repeat: repeat-x; */
+    /* background-position: bottom left; */
+
+    /* shorthand property for css backgrounds  */
+    /* background: url("bpic.jpg") no-repeat fixed right; */
+
+    background: linear-gradient(45deg,red,green);
+}

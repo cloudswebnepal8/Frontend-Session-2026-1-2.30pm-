@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.card {
+    /* background-color: red; */
+    /* height: 100px;
+    width: 100px; */
+    /* color: white; */
+    padding: 10px;
+    border: 1px solid rgb(140, 143, 135);
+    text-align: center;
+    /* margin: 10px; */
+    /* display: block; */
+    /* display: inline; */
+}
+
+.container {
+    display: flex;
+    gap: 15px;
+   
+    /* flex-wrap: wrap; */
+    /* flex-direction: row-reverse; */
+}
+img{
+    height: 100px;
+    width: 100px;
+}
+.product-card{
+    display: flex;
+   
+    /* gap: 10px; */
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    /* align-items: center; */
+    /* height: 500px; */
+}

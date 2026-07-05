@@ -1,0 +1,27 @@
+body{
+    background-color: aqua;
+}
+
+
+@media (max-width:600px) {
+    body {
+        background-color: green;
+    }
+}
+
+/* tablet  */
+@media (min-width:601px) and (max-width:900px) {
+    body {
+        background-color: rgb(11, 144, 232);
+    }
+
+}
+
+/* laptotp  */
+
+@media (min-width:901px) and (max-width:1200px) {
+    body {
+        background-color: rgb(214, 5, 8);
+    }
+
+}

@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Grid E-Commerce</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial;
+        }
+
+        /* Navbar */
+        nav {
+            background: #222;
+            color: white;
+            padding: 15px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        #menu {
+            display: flex;
+            gap: 20px;
+        }
+
+        #menu a {
+            color: white;
+            text-decoration: none;
+        }
+
+        /* Hero */
+        #hero {
+            background: linear-gradient(to right, #4facfe, #00f2fe);
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        #hero button {
+            padding: 10px 20px;
+            margin-top: 10px;
+        }
+
+        /* Product Grid */
+        #products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 30px;
+        }
+
+        .card {
+            border: 1px solid #ddd;
+            padding: 15px;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        .card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        /* Footer */
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        /* About */
+
+#about{
+    padding:50px;
+    text-align:center;
+    background:#f4f4f4;
+}
+
+#aboutTitle{
+    margin-bottom:20px;
+}
+
+#aboutText{
+    max-width:700px;
+    margin:auto;
+    line-height:1.8;
+}
+
+
+/* Contact */
+
+#contact{
+    padding:50px;
+    text-align:center;
+    background:white;
+}
+
+#contactTitle{
+    margin-bottom:20px;
+}
+
+#email,
+#phone,
+#address{
+    margin:10px 0;
+}
+    </style>
+</head>
+
+<body>
+
+    <nav id="navbar">
+
+        <h2 id="logo">ShopHub</h2>
+
+        <div id="menu">
+            <a href="#hero" id="homeLink">Home</a>
+            <a href="#products" id="productLink">Products</a>
+            <a href="#about" id="aboutLink">About</a>
+            <a href="#contact" id="contactLink">Contact</a>
+        </div>
+
+    </nav>
+
+    <section id="hero">
+        <h1>Welcome To ShopHub</h1>
+        <p>Best Products At Best Prices</p>
+        <button id="shopBtn">Shop Now</button>
+    </section>
+
+    <section id="products">
+
+        <div class="card">
+            <img src="https://picsum.photos/300?1">
+            <h3>Laptop</h3>
+            <p>$800</p>
+        </div>
+
+        <div class="card">
+            <img src="https://picsum.photos/300?2">
+            <h3>Phone</h3>
+            <p>$500</p>
+        </div>
+
+        <div class="card">
+            <img src="https://picsum.photos/300?3">
+            <h3>Headphones</h3>
+            <p>$50</p>
+        </div>
+
+        <div class="card">
+            <img src="https://picsum.photos/300?4">
+            <h3>Watch</h3>
+            <p>$120</p>
+        </div>
+
+        <div class="card">
+            <img src="https://picsum.photos/300?5">
+            <h3>Camera</h3>
+            <p>$700</p>
+        </div>
+
+        <div class="card">
+            <img src="https://picsum.photos/300?6">
+            <h3>Keyboard</h3>
+            <p>$40</p>
+        </div>
+
+        <div class="card">
+            <img src="https://picsum.photos/300?7">
+            <h3>Mouse</h3>
+            <p>$20</p>
+        </div>
+
+        <div class="card">
+            <img src="https://picsum.photos/300?8">
+            <h3>Speaker</h3>
+            <p>$60</p>
+        </div>
+
+        <div class="card">
+            <img src="https://picsum.photos/300?9">
+            <h3>Tablet</h3>
+            <p>$350</p>
+        </div>
+
+        <div class="card">
+            <img src="https://picsum.photos/300?10">
+            <h3>Monitor</h3>
+            <p>$250</p>
+        </div>
+
+    </section>
+
+    <!-- ABOUT SECTION -->
+
+    <div id="about">
+
+        <h2 id="aboutTitle">About Us</h2>
+
+        <p id="aboutText">
+            ShopHub is an online shopping platform that provides
+            quality electronics, gadgets, and accessories at
+            affordable prices. Our mission is to deliver the
+            best shopping experience to customers.
+        </p>
+
+    </div>
+
+
+    <!-- CONTACT SECTION -->
+
+    <div id="contact">
+
+        <h2 id="contactTitle">Contact Us</h2>
+
+        <p id="email">Email: info@shophub.com</p>
+
+        <p id="phone">Phone: +977 9800000000</p>
+
+        <p id="address">
+            Address: Kathmandu, Nepal
+        </p>
+
+    </div>
+
+    <footer id="footer">
+        <h3>ShopHub</h3>
+        <p>Email: info@shophub.com</p>
+        <p>Phone: 9800000000</p>
+        <p>© 2026 All Rights Reserved</p>
+    </footer>
+
+</body>
+
+</html>

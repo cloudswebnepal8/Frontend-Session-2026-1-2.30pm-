@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Travel Blog</title>
+
+<style>
+
+/* RESET */
+body{
+  margin:0;
+  font-family:Arial;
+}
+
+/* NAVBAR */
+.navbar{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  background:#222;
+  color:white;
+  padding:10px;
+  position: fixed;
+  width: 100%;
+}
+
+.navbar .menu{
+  display:flex;
+  gap:20px;
+  margin-right: 40px;
+}
+
+.navbar a{
+  color:white;
+  text-decoration:none;
+}
+
+/* BLOG HEADER */
+.header{
+  text-align:center;
+  padding:30px;
+  background:#f4f4f4;
+ 
+}
+
+/* BLOG CONTENT */
+#Blog{
+  padding:20px;
+  display:flex;
+  flex-wrap:wrap;
+  gap:20px;
+  justify-content:space-between;
+}
+
+.blog-card{
+  width:30%;
+  min-width:250px;
+  border:1px solid #ddd;
+  padding:15px;
+  box-sizing:border-box;
+  border-radius:8px;
+}
+
+.blog-card img{
+  width:100%;
+  height:180px;
+  object-fit:cover;
+  border-radius:8px;
+}
+
+/* GALLERY */
+#Gallery{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  /* align-content:space-between; */
+  height:600px;
+  gap:10px;
+  padding:10px;
+}
+
+#Gallery img{
+  width:200px;
+  height:150px;
+  object-fit:cover;
+  border-radius:8px;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<div class="navbar">
+  <h2>TravelWorld</h2>
+
+  <div class="menu">
+    <a href="#Home">Home</a>
+    <a href="#Blog">Blog</a>
+    <a href="#Gallery">Gallery</a>
+    <a href="#Contact">Contact</a>
+  </div>
+</div>
+
+<!-- HEADER -->
+<div class="header">
+  <h1>Explore the World</h1>
+  <p>Best travel stories, places and memories</p>
+</div>
+
+<!-- BLOG SECTION -->
+<div id="Blog">
+
+  <div class="blog-card">
+    <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e">
+    <h3>Beach Paradise</h3>
+    <p>Enjoy the beautiful sunset and ocean waves.</p>
+  </div>
+
+  <div class="blog-card">
+    <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e">
+    <h3>Mountain Adventure</h3>
+    <p>Explore high peaks and fresh air mountains.</p>
+  </div>
+
+  <div class="blog-card">
+    <img src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa">
+    <h3>Forest Journey</h3>
+    <p>Walk through green forests and natural beauty.</p>
+  </div>
+
+</div>
+
+<!-- GALLERY -->
+<h2 style="text-align:center;">Travel Gallery</h2>
+
+<div id="Gallery">
+
+<img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470">
+<img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e">
+<img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e">
+<img src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa">
+<img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee">
+<img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e">
+<img src="https://images.unsplash.com/photo-1519681393784-d120267933ba">
+<img src="https://images.unsplash.com/photo-1491553895911-0055eca6402d">
+<img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470">
+<img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e">
+
+</div>
+
+</body>
+</html>

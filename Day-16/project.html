@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            font-family: Arial;
+            max-width: 400px;
+            margin: 20px auto;
+        }
+
+        input,
+        button {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+        }
+
+        .student {
+            background: #f1f1f1;
+            padding: 10px;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Student Result Manager</h2>
+
+    <input type="text" id="name" placeholder="Student Name">
+    <input type="number" id="marks" placeholder="Marks">
+    <button onclick="addStudent()">Add Student</button>
+
+    <div id="result"></div>
+
+    <script>
+
+        let students = [];
+
+        function addStudent() {
+
+            let name = document.getElementById("name").value;
+            let marks = Number(document.getElementById("marks").value);
+
+            if (name === "" || isNaN(marks)) {
+                alert("Fill all fields");
+                return;
+            }
+
+            students.push({
+                name: name,
+                marks: marks
+            });
+
+            displayStudents();
+
+            document.getElementById("name").value = "";
+            document.getElementById("marks").value = "";
+        }
+
+        function displayStudents() {
+
+            let output = "";
+
+            students.forEach(student => {
+
+                let grade = student.marks >= 40
+                    ? "Pass"
+                    : "Fail";
+
+                output += `
+        <div class="student">
+            ${student.name} - ${student.marks} (${grade})
+        </div>
+        `;
+            });
+
+            document.getElementById("result").innerHTML = output;
+        }
+
+    </script>
+
+</body>
+
+</html>

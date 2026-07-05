@@ -1,0 +1,30 @@
+.fa-brands{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    /* color: blue; */
+    color: rgba(33, 139, 232, 0.9);
+
+    background-color: greenyellow;
+    padding: 10px;
+
+    /* text alignment  */
+    text-align: center;
+    /* text decoration  */
+    text-decoration-line: underline;
+    text-decoration-thickness: 5px;
+    text-decoration-color: red;
+    text-decoration-style: dotted;
+
+    text-transform: capitalize; 
+}
+p{
+    text-align: justify;
+    padding: 10px;
+}

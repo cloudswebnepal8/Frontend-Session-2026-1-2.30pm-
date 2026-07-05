@@ -1,0 +1,62 @@
+.parent {
+    border: 2px solid gray;
+    margin: 30px;
+    height: 100px;
+    position: relative;
+}
+
+.relative {
+    background-color: red;
+    height: 20px;
+    width: 70px;
+    color: white;
+    position: relative;
+    top: 20px;
+    left: 20px;
+
+    /* top,bottom,left and right  */
+
+}
+
+.absolute {
+    background-color: rgb(9, 226, 17);
+    height: 20px;
+    width: 70px;
+    color: white;
+    position: absolute;
+    top: 5px;
+
+}
+
+.static {
+    background-color: rgb(9, 226, 17);
+    width: 40px;
+    color: white;
+    padding: 10px;
+    position: static;
+    top: 30px;
+    left: 40px;
+
+}
+
+
+.fixed {
+    background-color: rgb(9, 226, 17);
+    width: 40px;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    top: 30px;
+    left: 40px;
+
+}
+
+.sticky {
+    background-color: rgb(3, 147, 230);
+    width: 40px;
+    color: white;
+    padding: 10px;
+    position: sticky;
+    top: 50px;
+    left: 200px;
+}
