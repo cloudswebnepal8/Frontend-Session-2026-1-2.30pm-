@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+*{
+  margin: 0;
+}
+h1{
+}
+
+form{
+  /* border: 2px solid gray;
+  padding: 10px;
+  border-radius: 3px; */
+}
